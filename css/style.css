@@ -2,6 +2,9 @@
 	margin:0;
 	padding: 0;
 }
+a{
+	text-decoration: none;
+}
 body{
 	margin:0;
 	padding: 0;
@@ -110,10 +113,12 @@ header{
 	margin-top: 20px;
 	border:none;
 	border-radius: 3px;
-	color:#5a5a5a;
 	font-size: 16px;
 	background-color: white;
 	text-transform: uppercase;
+}
+.banner-content button a{
+	color:#333333;
 }
 .banner-content button span{
 	padding: 10px 0;
@@ -155,11 +160,11 @@ header{
 	padding-left:10px;
 	margin-top: 10px;
 }
-.service-title h1{
+.service-title h1,.about-third-right h1{
 	color:#ffffff;
 	font-size: 20px;
 }
-.service-title h2{
+.service-title h2,.about-third-right h2{
 	color:#0078BC;
 	font-size: 20px;
 }
@@ -172,4 +177,99 @@ header{
 	padding: 10px;
 	font-size: 14px;
 	line-height: 18px;
+}
+/*about section styles*/
+.about {
+	background-color: #040811;
+	padding:50px 0px;
+}
+
+.wrapper {
+}
+
+.about-single {
+	width:30%;
+	float:left;
+	padding:10px;
+	margin-left: 5px;
+}
+
+.about-title {
+}
+.about-title h2{
+	color:#ffffff;
+	font-size: 20px;
+	line-height: 2.5;
+}
+
+.about-title span{
+	color:#0078BC;
+}
+
+.about-content {
+}
+.about-content p{
+	color:#ffffff;
+	font-size: 14px;
+	line-height: 1.5;
+}
+.about-single-middle {
+	background-image: url('../images/quote.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	padding: 10px;
+	min-height: 170px;
+}
+.about-single-middle-bottom-content{
+	color:#ffffff;
+}
+.about-third-left {
+	float:left;
+	width:40%;
+}
+
+.about-third-right {
+	float:right;
+	width:60%;
+	margin-top: 20px;
+}
+.btn-style{
+	text-transform: none;
+	background-color:#ffffff;
+	padding:5px;
+	margin-top: 20px;
+	border:none;
+	border-radius: 3px;
+	color:#5a5a5a;
+	font-size: 16px;
+	background-color: white;
+	width:100%;
+}
+.btn-left{
+	float: left;
+	width:20%;
+}
+.btn-left span{
+
+}
+.btn-left span img{
+width:100%;
+vertical-align: middle;
+}
+
+.btn-right{
+	float: right;
+	width:75%;
+	text-align: left;
+	margin-left: 5px;
+}
+.btn-right p{
+	font-size:14px;
+	line-height: 1;
+	margin-top:5px;
+}
+.btn-right h2{
+	font-size:20px;
+	line-height: 1;
 }
