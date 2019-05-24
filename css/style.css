@@ -1,0 +1,175 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	margin:0;
+	padding: 0;
+	font-family: "helvetica",arial;
+}
+
+header{
+	background-color: #121B2A;
+	padding: 10px 0;
+	border-bottom: 1px solid #000408;
+
+}
+
+.wrapper {
+	width:85%;
+	margin:0 auto;
+	overflow: hidden;
+}
+
+.logo {
+	width:15%;
+	float:left;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.mainmenu {
+	width:70%;
+	float:right;
+	margin-top: 30px;
+}
+
+.menu {
+
+}
+
+.menu ul{
+	float:right;
+
+}
+
+.menu ul li{
+	list-style: none;
+	float:left;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	font-size:16px;
+	text-transform: uppercase;
+	padding: 0 20px;
+	color:#ffffff;
+	display: block;
+	transition:.3s;
+}
+.menu ul li:last-child a {
+	padding-right: 0;
+}
+.menu ul li:hover a{
+	color:#0078BC;
+}
+/*banner section styles*/
+.banner {
+	
+	background-image: url('../images/banner.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	min-height: 300px;
+}
+
+.wrapper {
+
+}
+
+.banner-content {
+	width:45%;
+	float:left;
+	margin-top: 200px;
+	margin-bottom: 100px;
+}
+
+.banner-content p:first-child{
+	color:#ffffff;
+	font-size: 24px;
+	line-height: 1.5;
+}
+.banner-content p:nth-last-child(2){
+	color:#ffffff;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.banner-content h1{
+	color:#0078BC;
+	font-size: 36px;
+	line-height: 1.5;
+}
+
+
+.banner-content button{
+	background-color:#ffffff;
+	padding:10px 20px;
+	min-width: 100px;
+	margin-top: 20px;
+	border:none;
+	border-radius: 3px;
+	color:#5a5a5a;
+	font-size: 16px;
+	background-color: white;
+	text-transform: uppercase;
+}
+.banner-content button span{
+	padding: 10px 0;
+	margin-left:10px;
+}
+.banner-content button span img{
+	vertical-align: middle;
+}
+
+/*service section styles starts*/
+.service{
+	background-color: #121B2A;
+	padding:50px 0px;
+}
+
+.service-single {
+	width:30%;
+	float:left;
+	padding:10px;
+	margin-left: 5px;
+}
+
+.service-top {
+	overflow: hidden;
+}
+
+.service-icon {
+	float:left;
+	width:20%;
+}
+
+.service-icon img{
+	width:100%;
+}
+
+.service-title {
+	float:left;
+	width:60%;
+	padding-left:10px;
+	margin-top: 10px;
+}
+.service-title h1{
+	color:#ffffff;
+	font-size: 20px;
+}
+.service-title h2{
+	color:#0078BC;
+	font-size: 20px;
+}
+
+.service-content {
+}
+.service-content p{
+	color:#ffffff;
+	text-align:justify;
+	padding: 10px;
+	font-size: 14px;
+	line-height: 18px;
+}
